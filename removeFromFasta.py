@@ -3,6 +3,7 @@
 import sys
 import os
 from Bio import SeqIO
+import argparse
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio.Alphabet import IUPAC,Gapped
